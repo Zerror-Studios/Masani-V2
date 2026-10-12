@@ -37,7 +37,7 @@ export const siteRoutes = [
   {
     path: "/",
     label: "Home",
-    title: "Navjote Ceremony - Home",
+    title: "WALKER ZAL MASANI",
     description: "Welcome to the NAVJOTE Ceremony event page. RSVP here.",
     priority: 1,
   },

@@ -4,7 +4,7 @@ export const siteConfig = {
   url: "https://localhost:3000",
   locale: "en_IN",
   language: "en-IN",
-  ogImage: "/og.png",
+  ogImage: "/logo.png",
   keywords: [
     "NAVJOTE",
     "Navjote",

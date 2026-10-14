@@ -28,7 +28,7 @@ const Hero = () => {
     <div ref={container} className='w-full h-svh relative bg-white p-2 sm:p-5'>
 
       <div className="anim-bg w-full h-full bg-[#99BBCF] p-2 sm:p-5  relative overflow-hidden">
-        <CornerWhiteCut />
+        {/* <CornerWhiteCut /> */}
         <WhiteBG />
         <ContentCont />
       </div>

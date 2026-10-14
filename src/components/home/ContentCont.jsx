@@ -12,6 +12,7 @@ const DEFAULT_MEMBER = {
 
 const ContentCont = () => {
     const [showForm, setShowForm] = useState(false);
+    const [showInfo, setShowInfo] = useState(false);
     const [memberCount, setMemberCount] = useState(1);
     const [membersData, setMembersData] = useState([{ ...DEFAULT_MEMBER }]);
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -127,7 +128,22 @@ const ContentCont = () => {
 
                         <EventDetails />
                         <Timer />
-                        <BTN label="RSVP" onClick={() => setShowForm(true)} />
+                        <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
+                            <BTN label="RSVP" onClick={() => setShowForm(true)} />
+                            <BTN label="Know more" onClick={() => setShowInfo((prev) => !prev)} />
+                        </div>
+
+                        {showInfo && (
+                            <p className="text-[#567a99] text-sm md:text-base FONT_PN font-semibold text-center mt-2">
+                                For Further Information and Queries:{" "}
+                                <a
+                                    href="mailto:masaninavjote@gmail.com"
+                                    className="underline hover:text-[#C59B4E] transition-colors break-all"
+                                >
+                                    masaninavjote@gmail.com
+                                </a>
+                            </p>
+                        )}
                     </div>
                 </>
             ) : (

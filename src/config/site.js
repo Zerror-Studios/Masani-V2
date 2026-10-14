@@ -4,7 +4,7 @@ export const siteConfig = {
   url: "https://localhost:3000",
   locale: "en_IN",
   language: "en-IN",
-  ogImage: "/og.png",
+  ogImage: "/logo.png",
   keywords: [
     "NAVJOTE",
     "Navjote",
@@ -37,7 +37,7 @@ export const siteRoutes = [
   {
     path: "/",
     label: "Home",
-    title: "Navjote Ceremony - Home",
+    title: "WALKER ZAL MASANI",
     description: "Welcome to the NAVJOTE Ceremony event page. RSVP here.",
     priority: 1,
   },

@@ -57,7 +57,8 @@ export function createMetadata({
         {
           url: imageUrl,
           width: 1200,
-          height: 630,
+          height: 628,
+          type: "image/png",
           alt: pageTitle,
         },
       ],

@@ -1,10 +1,10 @@
 export const siteConfig = {
   name: "Navjote Ceremony",
   description: "Join us for the auspicious occasion of the NAVJOTE Ceremony. RSVP and find event details here.",
-  url: "https://localhost:3000",
+  url: "https://www.masaninavjote.com",
   locale: "en_IN",
   language: "en-IN",
-  ogImage: "/logo.png",
+  ogImage: "/og.png",
   keywords: [
     "NAVJOTE",
     "Navjote",

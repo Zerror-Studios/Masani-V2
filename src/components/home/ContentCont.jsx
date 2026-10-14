@@ -130,7 +130,7 @@ const ContentCont = () => {
                         <Timer />
                         <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
                             <BTN label="RSVP" onClick={() => setShowForm(true)} />
-                            <BTN label="Know more" onClick={() => setShowInfo((prev) => !prev)} />
+                            <BTN label="Know More" onClick={() => setShowInfo((prev) => !prev)} />
                         </div>
 
                         {showInfo && (

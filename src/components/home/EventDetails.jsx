@@ -25,7 +25,7 @@ const EventDetails = () => {
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
-                    <span>5 O' Clock in the Evening</span>
+                    <span>5 o'clock in the evening</span>
                 </div>
 
                 <span className="hidden lg:block text-[#567a99] text-2xl font-light">|</span>

@@ -112,7 +112,7 @@ const ContentCont = () => {
                         </div>
 
                         {/* TEXT-INFO */}
-                        <div className="flex items-center justify-center gap-3 max-sm:mt-8 text-[#567a99] w-[90%] text-[1.3rem] tracking-0 md:max-w-[60%] my-2 md:my-4 mb-2  md:text-lg FONT_PN font-semibold capitalize text-center sm:tracking-tight leading-5 md:leading-6">
+                        <div className="flex items-center justify-center gap-3 max-sm:mt-8 text-[#567a99] w-[90%] text-[1.6rem] tracking-0 md:max-w-[60%] my-2 md:my-4 mb-2  md:text-2xl FONT_PN font-semibold capitalize text-center sm:tracking-tight leading-7 md:leading-8">
                             <h1 className="text-inherit font-inherit m-0 p-0">
                                 NAVJOTE CEREMONY OF
                             </h1>
@@ -120,7 +120,7 @@ const ContentCont = () => {
                     </div>
 
                     {/* Title */}
-                    <div className="w-[99%] sm:w-[70%] md:w-1/2 h-fit flex relative">
+                    <div className="w-[85%] sm:w-[60%] md:w-[40%] h-fit flex relative">
                         <img src="/images/MainText.png" alt="NAVJOTE Ceremony Title" className="w-full object-cover object-center" />
                     </div>
 
